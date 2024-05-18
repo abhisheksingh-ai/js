@@ -100,3 +100,4 @@ const users =[
 //undefined
 
 //--> value exist nahi karti ho
+console.log(tinderUser2.hasOwnProperty('IsLoggedIn'))
