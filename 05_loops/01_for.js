@@ -10,7 +10,7 @@ for (let i = 0; i < studentName.length; i++) {
 // 1
 // 2
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
 
 const studentName2 = ['rohit', 'mukesh', 1 , 2]
 for (let i = 0; i < studentName2.length; i++) {
