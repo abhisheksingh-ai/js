@@ -15,38 +15,38 @@
 </body>
 <script>
      const parent = document.querySelector( '.parent')
-    // console.log(parent);
-    // console.log(parent.children);
-    // //it will give all childeren
+    console.log(parent);
+    console.log(parent.children);
+    //it will give all childeren
 
-    // for (let i = 0; i < parent.children.length; i++) {
-    //     console.log(parent.children[i].innerHTML);
-    // }
-    // // Monday
-    // // Tuesday
-    // // Wednesday
-    // // Thursday
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }
+    // Monday
+    // Tuesday
+    // Wednesday
+    // Thursday
 
-    // parent.children[2].style.color ='orange'
-    // //wedness day orange ho gya
+    parent.children[2].style.color ='orange'
+    //wedness day orange ho gya
 
-    // console.log(parent.firstElementChild);
-    // //<div class="day">Monday</div>
+    console.log(parent.firstElementChild);
+    //<div class="day">Monday</div>
 
-    // console.log(parent.lastElementChild);
-    // //<div class="day">Thursday</div>
+    console.log(parent.lastElementChild);
+    //<div class="day">Thursday</div>
 
     //tree traversal is heavy operation hai 
     //child to parent
 
     const dayOne = document.querySelector('.day')
-    //console.log(dayOne);
+    console.log(dayOne);
 
     //child to parent
-    //console.log(dayOne.parentElement);
+    console.log(dayOne.parentElement);
 
-    //console.log(dayOne.nextElementSibling);
-    //<div class="day">Tuesday</div>
+    console.log(dayOne.nextElementSibling);
+    <div class="day">Tuesday</div>
 
     console.log("NODES: ", parent.childNodes);   
     NodeList(9) [text, div.day, text, div.day, text, div.day, text, div.day, text]//this is tree sructure
