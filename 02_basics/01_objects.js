@@ -18,7 +18,7 @@ student.greeting = function(){
     console.log(`Hello Student, ${this.Name}. Your college name is ${this.College}`)
 }
 
-// console.log(student.greeting());
+console.log(student.greeting());
 
-// console.log(student)
+console.log(student)
 console.log(student.greeting2());
