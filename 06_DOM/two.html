@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM chai or code</title>
+</head>
+<body style="background-color: #212121; color: #ffff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+     const parent = document.querySelector( '.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // //it will give all childeren
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML);
+    // }
+    // // Monday
+    // // Tuesday
+    // // Wednesday
+    // // Thursday
+
+    // parent.children[2].style.color ='orange'
+    // //wedness day orange ho gya
+
+    // console.log(parent.firstElementChild);
+    // //<div class="day">Monday</div>
+
+    // console.log(parent.lastElementChild);
+    // //<div class="day">Thursday</div>
+
+    //tree traversal is heavy operation hai 
+    //child to parent
+
+    const dayOne = document.querySelector('.day')
+    //console.log(dayOne);
+
+    //child to parent
+    //console.log(dayOne.parentElement);
+
+    //console.log(dayOne.nextElementSibling);
+    //<div class="day">Tuesday</div>
+
+    console.log("NODES: ", parent.childNodes);   
+    NodeList(9) [text, div.day, text, div.day, text, div.day, text, div.day, text]//this is tree sructure
+    // 0
+    // text
+    // 1
+    // div.day
+    // 2
+    // text
+    // 3
+    // div.day
+    // 4
+    // text
+    // 5
+    // div.day
+    // 6
+    // text
+    // 7
+    // div.day
+    // 8
+    // text 
+</script>
+</html>
